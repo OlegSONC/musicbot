@@ -5,7 +5,6 @@ from discord.ext import commands
 
 # Read the Data files and store them in a variable
 TokenFile = open("./data/Token.txt", "r") # Make sure to paste the token in the txt file
-TOKEN = TokenFile.read("./data/Token.txt", "r") 
 
 OWNERID = 733370212199694467
 
@@ -74,4 +73,4 @@ for filename in os.listdir('./Cogs'):
             raise Exception
         
 # Run our bot
-bot.run(str(TOKEN)) # Make sure you paste the CORRECT token in the "./data/Token.txt" file
+bot.run(str("ODA1MzQyMzkyMDcyNDA0OTky.YBZfjA.tIDAmUvckiObt3-I---N85ovwTE")) # Make sure you paste the CORRECT token in the "./data/Token.txt" file
