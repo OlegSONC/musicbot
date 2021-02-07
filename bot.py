@@ -5,7 +5,7 @@ from discord.ext import commands
 
 # Read the Data files and store them in a variable
 TokenFile = open("./data/Token.txt", "r") # Make sure to paste the token in the txt file
-TOKEN = TokenFile.read() 
+TOKEN = TokenFile.read("./data/Token.txt", "r") 
 
 OWNERID = 733370212199694467
 
