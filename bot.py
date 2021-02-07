@@ -74,4 +74,4 @@ for filename in os.listdir('./Cogs'):
             raise Exception
         
 # Run our bot
-bot.run(str(TOKEN)) # Make sure you paste the CORRECT token in the "./data/Token.txt" file
+bot.run(str(ODA1MzQyMzkyMDcyNDA0OTky.YBZfjA.ZIiWNcW3rHq6w5r2WJvSI0BgU6U)) # Make sure you paste the CORRECT token in the "./data/Token.txt" file
